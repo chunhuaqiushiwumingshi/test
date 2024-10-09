@@ -1,0 +1,4 @@
+a = ["HT","HT-TU","LT","TU","TU-V","TU-UV","TD0","TD0-V","TD0-HR","TD0-LR","TD0-UV","TD0-LC","TD0-HC","W1-TR","V2-TR","R0","R3","R4","R1","SR0","SR1","SC0","R-TD","R-TR","SR-TR","SC0-TR","R-LT-TR","SC0-HT-HR","SC0-HT-W","SC0-LT-W","SR-LT-TR","S0","S1","S2","S3","SS0","SS1","S-TR","SS-TR","W1","W1-V","SC1","SC1-TR","SC1-HT-HR","SC1-HT-W","SC1-LT-W","V2-A","W0","TD1","HR","LR","UV"]
+b = ["HT", "HT-V", "HT-A", "HT-UV", "LT", "LT-TU", "LT-A", "LT-UV", "TD0", "TD0-A", "W1-HT", "W1-LT", "W1-TU", "W1-TD", "R0", "R1", "R2", "SR0", "R-A", "R-UV", "R-LC", "SR-W", "SR-V", "SR-A", "R-LT-TR", "SC0-HT-HR", "S0", "S3", "SS0", "SS1", "S-A", "S-LR", "SS-W", "SS-V", "SS-A", "W1", "W1-LR", "W1-UV", "V1", "V1-LR", "V1-UV", "SC1", "SC1-W", "SC1-V", "SC1-A", "TD1-V", "TD1-A", "W1-A", "V2", "V2-A", "A0-UV", "HT-W", "LT-W", "TD0-W", "TD1-W", "HT-HR", "HR-LR", "HT-HC", "LT-HR", "LT-LR", "TD1", "A0-HC", "UV", "HT-HR-LC", "W-LR-TR"]
+
+print("两个列表的交集为",list(set(a).intersection(set(b))))
